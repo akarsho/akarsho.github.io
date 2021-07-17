@@ -1,26 +1,32 @@
 html, body{
     height: 100%;
     margin: 0;
+    background-color: #2a2a2a;
 }
 
-#header {
+#contentContainer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 30%;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background: black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 92%;
+    width: 92%;
+    border: 1px solid black;
+    border-radius: 17px;
+    background-color: whitesmoke;
+    overflow: hidden;
 }
 
-#headerLeft {
-    padding: 2%;
-    width: 12%;
-    position: absolute;
-    left: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: white
+#sidebar {
+    position: relative;
+    left: 0;
+    width: 25%;
+    background-color: black;
+}
+
+#avatar {
+    
 }
