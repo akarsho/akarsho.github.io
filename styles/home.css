@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
-    background-color: #2a2a2a;
+    background-color: #1b1b1b;
 }
 
 #contentContainer {
@@ -12,8 +12,8 @@ html, body{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 92%;
-    width: 92%;
+    height: 95%;
+    width: 95%;
     border-radius: 17px;
     background-color: whitesmoke;
     overflow: hidden;
@@ -48,14 +48,36 @@ html, body{
 
 #sidebar p {
     margin-top: 0;
-    color: #757575;
+    color: #ffffffaf;
     text-align: center;
     font-family: 'Fira Code', monospace;
-    font-size: 1.4vw;
+    font-size: 1.25vw;
+}
+
+.sidebarButton {
+    display: flex;
+    margin-inline: auto;
+    margin-top: 5%;
+    width: 72%;
+    height: 5%;
+    border: 2px solid rgb(139, 139, 139);
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.2s;
+}
+
+.sidebarButton:hover
+{
+    border: 2px solid rgb(199, 199, 199);
+    background-color: rgba(255, 255, 255, 0.24);
+    cursor: pointer;
 }
 
 .sidebarButton h3 {
-    font-family: ;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    font-weight: 100;
+    font-size: 1.0vw;
     color: white;
-    
 }
