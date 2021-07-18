@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+        <script src="index.js" type="text/javascript" async></script>
     </head>
     <body>
         <div id="contentContainer">
@@ -16,20 +17,96 @@
                 <img id="avatar" src="images/64885810.jpg">
                 <h1>Akarsh Ojha</h1>
                 <p>akarsho</p>
-                <div class="sidebarButton">
-                    <h3>About</h3>     
+
+                <div class="sidebarButton" id="about">
+                    <h3>about me</h3>     
                 </div>
-                <div class="sidebarButton">
-                    <h3>About</h3>     
+                <div class="sidebarButton" id="programs">
+                    <h3>programs</h3>     
                 </div>
-                <div class="sidebarButton">
-                    <h3>About</h3>     
+                <div class="sidebarButton" id="projects">
+                    <h3>projects</h3>     
                 </div>
-                <div class="sidebarButton">
-                    <h3>About</h3>     
+                <div class="sidebarButton" id="miscellaneous">
+                    <h3>miscellaneous</h3>     
                 </div>
-                <div class="sidebarButton">
-                    <h3>About</h3>     
+                <div class="sidebarButton" id="competitions">
+                    <h3>competitions</h3>     
+                </div>
+                <div class="sidebarButton" id="academics">
+                    <h3>academics</h3>     
+                </div>
+
+                <div id="iconHyperlinks">
+                    <img src="images/github.png" onclick="loadGit()">
+                    <img src="images/linkedin.png" onclick="loadLinkedin()">
+                </div>
+            </div>
+            <div id="content">
+                <div id="aboutMe">
+                    <h1> About Me </h1>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in ante vel sem commodo efficitur nec eu lorem.
+                        Maecenas consequat sapien orci, eget porta tellus efficitur ac. Curabitur mi turpis, tempor sit amet ex quis, malesuada 
+                        consequat purus. Pellentesque interdum consectetur est, sagittis commodo erat sagittis ut. Morbi feugiat ut nunc eu scelerisque. 
+                        Nulla consequat, felis id porta rutrum, tellus nisl lobortis leo, quis auctor massa sapien sit amet dui. 
+                        Ut rutrum tortor ultricies, semper augue eu, varius nunc. Aliquam lacinia turpis a dui mollis tristique.
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                        <br><br>
+                        Vivamus scelerisque nulla turpis, non molestie nulla condimentum nec. Morbi ullamcorper vehicula felis quis scelerisque. 
+                        Cras et mi vehicula, ultricies justo ac, consectetur libero. Sed varius velit eget lacus viverra tristique. 
+                        Nullam vulputate ex ut laoreet commodo. Nullam non scelerisque lorem. Suspendisse potenti. Vestibulum non tempus ante.
+                        Proin condimentum sed metus vel varius. Duis malesuada elementum laoreet. Nunc non quam nec nibh placerat blandit.
+                        Proin nibh felis, tristique ac vehicula ac, varius sit amet felis. Vestibulum non diam vel tellus porta sodales eu ut dolor. 
+                    </p>
                 </div>
             </div>
         </div>
