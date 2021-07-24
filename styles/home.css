@@ -64,7 +64,7 @@ html, body{
     justify-content: space-evenly;
     margin-top: 10%;
     margin-inline: auto;
-    width: 80%;
+    width: 60%;
 }
 
 #iconHyperlinks img {
@@ -78,15 +78,20 @@ html, body{
 }
 
 #content {
-    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
     position: relative;
     width: 75%;
     height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Fira Code', monospace;
+    color: white;
     /* border: 5px solid red; */
 }
+
+
 
 /* Classes */
 
@@ -121,4 +126,10 @@ html, body{
 .contentChild {
     font-size: 1vw;
     padding: 0;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 4%;
 }
