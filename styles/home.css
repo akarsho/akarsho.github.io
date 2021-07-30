@@ -134,7 +134,20 @@ html, body{
 }
 
 .section {
-    width: 100%;
+    width: 92%;
     height: 100%;
     padding: 4%;
 }
+
+.section h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    margin-bottom: 1.5%;
+}
+
+.section p {
+    font-family: 'Fira Code', monospace;
+    margin-inline: 0.2%;
+    margin-block: 0;
+}
+
