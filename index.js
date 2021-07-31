@@ -7,7 +7,7 @@ let loadLinkedin = () => {
 }
 
 let scrollAbout = () => {
-    document.getElementById("aboutme").scrollIntoView({behavior:"smooth", block:"end"});
+    document.getElementById("aboutme").scrollIntoView({"behavior":"smooth", "block":"start"});
     console.log("YOY");
 }
 
