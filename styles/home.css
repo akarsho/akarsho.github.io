@@ -148,8 +148,11 @@ html, body{
 }
 
 .section p {
+    border: 0.2vw #252525 solid;
+    background-color: #252525;
+    border-radius: 0.5em;
+    padding: 2%;
     font-family: 'Fira Code', monospace;
-    margin-inline: 0.2%;
     font-size:  1.05vw;
     font-weight: 100;
     margin-block: 0;
