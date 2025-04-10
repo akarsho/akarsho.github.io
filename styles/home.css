@@ -159,3 +159,30 @@ html, body{
     margin-block: 0;
 }
 
+.album-holder {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.2vw #000000 solid;
+    border-radius: 1em;
+    background-color: #000000;
+    padding: 2em;
+    
+}
+
+.two-row {
+    padding-top: 0.85em;
+}
+.two-row p {
+    margin: 0%;
+}
+
+.album-card {
+    margin-inline: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.album-card img {
+    max-width: 8vw;
+    border-radius: 0.3vw;
+    
+}
+
