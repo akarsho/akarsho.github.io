@@ -11,4 +11,8 @@ let scrollAbout = () => {
     console.log("YOY");
 }
 
+let toAlbumsPage = () => {
+    
+}
+
 document.getElementById("about").addEventListener("click", scrollAbout);
